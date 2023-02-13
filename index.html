@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Trivia Pokemon</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+ 
+  <div id="containerFondo">
+    <img src="fondotrivia.png" height="300" width="600">
+  </div>
+  <div id="containerProfesor">
+    <img src="profesor oak.png" height="220" width="150">
+  </div>
+
+  <div id="bienvenida">
+    <h1>Hola entrenador.
+      <br>Ingresa tu nombre
+    </h1>
+    <div id="botonIngresar">
+      <input id="userInput" placeholder="nombre">
+      <button id="buttonNombre" onclick="ingresarNombre();"> Ingresar </button>
+    </div>
+  </div>
+  <h1 id="saludo"> </h1>
+
+  <div id="level">
+    <a href="novato.html">
+      <input id="botonNovato" type="submit" value="NOVATO">
+      <a href="maestro.html">
+        <input id="botonMaestro" type="submit" value="MAESTRO">
+  </div>
+
+
+  <script src="script.js"></script>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NOVATO</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div id="containerFondo">
+    <img src="fondotrivia.png" height="300" width="600">
+  </div>
+  <div id="containerProfesor">
+    <img src="profesor oak.png" height="220" width="150">
+  </div>
+
+  <div id="preguntaNovato">
+    <div id="pregunta1">
+      <h2> 1) ¿Cómo se llama el rival de toda la vida de Ash?
+      </h2>
+      <button id="misty"> A) Misty </button>
+      <br> <button id="gary"> B) Gary </button>
+      <br><button id="brock"> C) Brock </button>
+      <p id="resultado"> </p>
+      <br><button id="botonSiguiente" onclick="mostrarPregunta2();ocultarPregunta1();"> Siguiente </button>
+    </div>
+
+
+    <div id="pregunta2">
+      <h2> 2) ¿Cuál es el objeto que Ash le debe a Misty?
+      </h2>
+      <button id="bici"> A) Bicicleta </button>
+      <br><button id="moto"> B) Moto </button>
+      <br><button id="patineta"> C) Patineta </button>
+      <p id="resultado2"> </p>
+      <br><button id="terminar1" onclick="alerta1();mostrarReiniciar1();ocultarPregunta2();">
+        Terminar </button>
+    </div>
+
+    <br>
+    <div id="puntajeNovato" <p>Tu puntaje es</p>
+      <p id="scorePrueba"> </p>
+    </div>
+
+  </div>
+  <br>
+  <a href="index.html"><button id="reiniciar1"> Volver a jugar </button></a>
+
+
+  <script src="novato.js"></script>
+</body>
+
+</html>

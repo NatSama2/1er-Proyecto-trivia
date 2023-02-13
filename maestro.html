@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MAESTRO</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div id="containerFondo">
+    <img src="fondotrivia.png" height="300" width="600">
+  </div>
+  <div id="containerProfesor">
+    <img src="profesor oak.png" height="220" width="150">
+  </div>
+
+<div id="preguntaMaestro">  
+  <div id="pregunta3">
+    <h2> 1) ¿Cuál es el Pokemon más antiguo?
+    </h2>
+    <button id="palkia"> A) Palkia </button>
+    <br> <button id="mew"> B) Mew </button>
+    <br><button id="arceus"> C) Arceus </button>
+    <p id="resultado3"> </p>
+    <br><button id="botonSiguiente2" onclick="mostrarPregunta4();ocultarPregunta3();"> Siguiente </button>
+  </div>
+
+
+  <div id="pregunta4">
+    <h2> 2) ¿Cuál es el Pokemon favorito de Satoshi Tajiri?
+    </h2>
+    <button id="poliwhirt"> A) Poliwhirt </button>
+    <br><button id="pikachu"> B) Pikachu </button>
+    <br><button id="charizard"> C) Charizard </button>
+    <p id="resultado4"> </p>
+    <br><button id="terminar2" onclick="alerta();mostrarReiniciar2();ocultarPregunta4();"> Terminar </button>
+  </div>
+
+<div id="puntajeNovato" <p>Tu puntaje es</p>
+<p id="scorePrueba"> </p>
+</div> 
+
+</div>  
+  <br>
+  <a href="index.html"><button id="reiniciar2"> Volver a jugar </button></a>
+  <script src="maestro.js"></script>
+</body>
+
+</html>

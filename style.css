@@ -1,0 +1,141 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #e2e255;
+}
+
+#containerFondo {
+  display: flex;
+  justify-content: center;
+}
+
+#containerProfesor {
+    position: absolute;
+    top: 55%;
+    left: 75%;
+}
+
+#level {
+  display: none;
+}
+
+#botonSiguiente, #botonSiguiente2 {
+  display: none; 
+  position: absolute;
+  top: 95%;
+  left: 63%;
+  margin: -25px 0 0 -25px;
+  color: #ffffff;
+  background-color: #000000;
+  border: 2px solid #616161;
+  border-radius: 6px;
+  font-size: 20px;
+  padding: 10px 20px;
+}
+
+  h1,h2{
+  color: #0748b0;
+  text-align: center;
+  font-family: sans-serif;
+}
+ p{
+  color:#0748b0;  
+  font-weight: bold;
+  font-size: 23px;
+  font-family: Lucida Console;
+ }
+
+#botonIngresar{
+  text-align: center; 
+}
+
+#botonNovato{
+  position: absolute;
+  top: 65%;
+  left: 47%;
+  margin: -25px 0 0 -25px;
+  color: #ffffff;
+  background-color: #000000;
+  border: 2px solid #616161;
+  border-radius: 6px;
+  font-size: 20px;
+  padding: 10px 20px;
+}
+
+#botonMaestro{
+  position: absolute;
+  top: 75%;
+  left: 46.3%;
+  margin: -25px 0 0 -25px;
+  color: #ffffff;
+  background-color: #000000;
+  border: 2px solid #616161;
+  border-radius: 6px;
+  font-size: 20px;
+  padding: 10px 20px;
+}
+
+#preguntaNovato, #preguntaMaestro, #resultado{
+  text-align: center; 
+}
+
+button{
+  background-color: pink;
+  border: 2px solid #0099CC;
+  border-radius: 6px;
+  font-size: 20px;
+  padding: 10px 20px;
+  border: outset
+}
+
+#pregunta2 {
+  display: none;
+}
+ #pregunta4 {
+   display: none;
+ }
+
+#terminar2, #terminar1 {
+  display: none; 
+  position: absolute;
+  top: 95%;
+  left: 63%;
+  margin: -25px 0 0 -25px;
+  color: #ffffff;
+  background-color: #000000;
+  border: 2px solid #616161;
+  border-radius: 6px;
+  font-size: 20px;
+  padding: 10px 20px;
+}
+
+#reiniciar1, #reiniciar2{
+  display: none;
+  position: absolute;
+  top: 60%;
+  left: 47%;
+  margin: -25px 0 0 -25px;
+  color: #ffffff;
+  background-color: #0e4f95;
+  border: 2px solid #cc9a05;
+  border-radius: 6px;
+  font-size: 20px;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+input{
+  font-size: 20px;
+}
+
+#puntajeNovato{
+  display: block;
+  position: absolute;
+  top: 10%;
+  left: 85%;
+  margin: -25px 0 0 -25px;
+  color:#0748b0;  
+  font-weight: bold;
+  font-size: 23px;
+  font-family: Lucida Console;
+}
